@@ -1,0 +1,24 @@
+.box {
+    width: 342px;
+    height: 464px;
+    background: $backgroundRanking;
+}
+
+div {
+    border-radius: $bordas;
+}
+.box > div{
+    background-color: $backgroundRanking;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+div:nth-child(even) {
+    background-color: #f2f1f1;
+}
+
+.fazendeiro:hover {
+    background: #ba3638;
+    transition: 0.2s;
+ }
