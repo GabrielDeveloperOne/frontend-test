@@ -1,7 +1,6 @@
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
   }
   
   .tooltip .opiniao {
@@ -14,8 +13,8 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: -5px;
-    left: 120%;
+    top: 9px;
+    left: 194px;
   }
   
   .tooltip .opiniao::after {
@@ -28,44 +27,52 @@
     border-style: solid;
     border-color: transparent #f8f7f7 transparent transparent;
   }
-  .tooltip:hover .opiniao {
+  .fazendeiro:hover .opiniao {
     visibility: visible;
   }
   
   .gosta {
     position: absolute;
-    top: -1px;
-    width: 70px;
+    top: 0;
+    width: 72px;
     height: 24px;
     background-color: #ba3638;
-    border-top-left-radius: 6px;
+    border-top-left-radius: 5px;
   }
   .naoGosta {
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 70px;
     width: 100px;
     height: 24px;
     background-color: #ba3638;
-    border-top-right-radius: 6px;
+    border-top-right-radius: 5px;
   }
   
   .estiloNaoGosta {
+    position: absolute;
+    top: -26px;
+    right: 10px;
+    color: #fff;
     text-align: center;
-    font-size: 0.85em;
+    font-size: 12px;
     font-weight: 600;
   }
   
   .estiloGosta{
+    position: absolute;
+    top: -26px;
+    left: 10px;
+    color: #fff;
     text-align: center;
-    font-size: 0.85em;
+    font-size: 12px;
     font-weight: 600;
   }
   
   .gostaPorcento{
     position: absolute;
     text-align: center;
-    top: 27px;
+    top: 3px;
     left: 11px;
     color: #909090;
     font-size: 28px;
@@ -75,7 +82,7 @@
   .NaoGostaPorcento{
     position: absolute;
     text-align: center;
-    top: 27px;
+    top: 3px;
     right: 15px;
     color: #909090;
     font-size: 28px;
