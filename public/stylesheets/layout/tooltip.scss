@@ -32,59 +32,33 @@
   }
   
   .gosta {
-    position: absolute;
-    top: 0;
-    width: 72px;
-    height: 24px;
-    background-color: #ba3638;
+   @include opiniaoGostaNaoGosta;
     border-top-left-radius: 5px;
+    width: 72px;
   }
   .naoGosta {
-    position: absolute;
-    top: 0;
-    left: 70px;
-    width: 100px;
-    height: 24px;
-    background-color: #ba3638;
-    border-top-right-radius: 5px;
+    @include opiniaoGostaNaoGosta;
+      border-top-right-radius: 5px;
+      left: 70px;
+      width: 100px;
   }
   
   .estiloNaoGosta {
-    position: absolute;
-    top: -26px;
+    @include estiloFontOpiniao;
     right: 10px;
-    color: #fff;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 600;
   }
   
   .estiloGosta{
-    position: absolute;
-    top: -26px;
+    @include estiloFontOpiniao;
     left: 10px;
-    color: #fff;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 600;
   }
   
   .gostaPorcento{
-    position: absolute;
-    text-align: center;
-    top: 3px;
+    @include estiloTituloOpiniao;
     left: 11px;
-    color: #909090;
-    font-size: 28px;
-    font-weight: 600;
   }
   
   .NaoGostaPorcento{
-    position: absolute;
-    text-align: center;
-    top: 3px;
+    @include estiloTituloOpiniao;
     right: 15px;
-    color: #909090;
-    font-size: 28px;
-    font-weight: 600;
   }

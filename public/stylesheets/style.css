@@ -81,54 +81,54 @@ div {
 .gosta {
   position: absolute;
   top: 0;
-  width: 72px;
   height: 24px;
   background-color: #ba3638;
-  border-top-left-radius: 5px; }
+  border-top-left-radius: 5px;
+  width: 72px; }
 
 .naoGosta {
   position: absolute;
   top: 0;
-  left: 70px;
-  width: 100px;
   height: 24px;
   background-color: #ba3638;
-  border-top-right-radius: 5px; }
+  border-top-right-radius: 5px;
+  left: 70px;
+  width: 100px; }
 
 .estiloNaoGosta {
   position: absolute;
   top: -26px;
-  right: 10px;
   color: #fff;
   text-align: center;
   font-size: 12px;
-  font-weight: 600; }
+  font-weight: 600;
+  right: 10px; }
 
 .estiloGosta {
   position: absolute;
   top: -26px;
-  left: 10px;
   color: #fff;
   text-align: center;
   font-size: 12px;
-  font-weight: 600; }
+  font-weight: 600;
+  left: 10px; }
 
 .gostaPorcento {
   position: absolute;
   text-align: center;
   top: 3px;
-  left: 11px;
   color: #909090;
   font-size: 28px;
-  font-weight: 600; }
+  font-weight: 600;
+  left: 11px; }
 
 .NaoGostaPorcento {
   position: absolute;
   text-align: center;
   top: 3px;
-  right: 15px;
   color: #909090;
   font-size: 28px;
-  font-weight: 600; }
+  font-weight: 600;
+  right: 15px; }
 
 /*# sourceMappingURL=style.css.map */

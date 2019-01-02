@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-
     <title>R7 FrontEnd Test</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/style.css" media="all">
   </head>
-  <body>
+  <body onload="FaltaDeTempo()">
       <div class="container">
         <div>
         <img class="logo" src="stylesheets/img/a-fazenda.png">
@@ -18,7 +18,7 @@
             <div class="tooltip">1
               <span class="opiniao">
               <div class="gosta">
-                 <span class="estiloGosta">GOSTA</span>
+                 <span class="estiloGosta">GOSTAM</span>
                  <span class="gostaPorcento">37%</span>
               </div>
               <div class="naoGosta">
@@ -27,15 +27,71 @@
               </div>
           </div>
         </div>
-          <div class="fazendeiro">2
-            
+          <div class="fazendeiro">
+            <div class="tooltip">2
+              <span class="opiniao">
+              <div class="gosta">
+                 <span class="estiloGosta">GOSTAM</span>
+                 <span class="gostaPorcento">37%</span>
+              </div>
+              <div class="naoGosta">
+                 <span class="estiloNaoGosta">NÃO GOSTAM</span>
+                 <span class="NaoGostaPorcento">63%</span>
+              </div>
           </div>
-          <div class="fazendeiro">3
-            
           </div>
-          <div class="fazendeiro">4</div>
-          <div class="fazendeiro">5</div>
-          <div class="fazendeiro">6</div>  
+          <div class="fazendeiro">
+            <div class="tooltip">3
+              <span class="opiniao">
+              <div class="gosta">
+                 <span class="estiloGosta">GOSTAM</span>
+                 <span class="gostaPorcento">37%</span>
+              </div>
+              <div class="naoGosta">
+                 <span class="estiloNaoGosta">NÃO GOSTAM</span>
+                 <span class="NaoGostaPorcento">63%</span>
+              </div>
+          </div>
+          </div>
+          <div class="fazendeiro">
+            <div class="tooltip">4
+              <span class="opiniao">
+              <div class="gosta">
+                 <span class="estiloGosta">GOSTAM</span>
+                 <span class="gostaPorcento">37%</span>
+              </div>
+              <div class="naoGosta">
+                 <span class="estiloNaoGosta">NÃO GOSTAM</span>
+                 <span class="NaoGostaPorcento">63%</span>
+              </div>
+          </div>
+          </div>
+          <div class="fazendeiro">
+              <div class="tooltip">5
+                  <span class="opiniao">
+                  <div class="gosta">
+                     <span class="estiloGosta">GOSTAM</span>
+                     <span class="gostaPorcento">37%</span>
+                  </div>
+                  <div class="naoGosta">
+                     <span class="estiloNaoGosta">NÃO GOSTAM</span>
+                     <span class="NaoGostaPorcento">63%</span>
+                  </div>
+              </div>  
+          </div>
+          <div class="fazendeiro">
+              <div class="tooltip">6
+                  <span class="opiniao">
+                  <div class="gosta">
+                     <span class="estiloGosta">GOSTAM</span>
+                     <span class="gostaPorcento">37%</span>
+                  </div>
+                  <div class="naoGosta">
+                     <span class="estiloNaoGosta">NÃO GOSTAM</span>
+                     <span class="NaoGostaPorcento">63%</span>
+                  </div>
+              </div>
+          </div>  
         </div>
       </div>
     <script src="javascripts/main.js"></script> 
