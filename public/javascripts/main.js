@@ -1,6 +1,6 @@
  $(function(){
-
-  /* Requisição JSON*/
+ 
+      /* Requisição JSON*/
   let fazendeirosJSON = "../fazenda.json";
       function onPerfilFazendeiros(data){
 
@@ -20,6 +20,7 @@
               let positive = ((data.data[piao].positive / 100000000) * 100).toFixed(0);
               let negative = ((data.data[piao].negative / 100000000) * 100).toFixed(0);
               let numeroPosicao = piao + 1;
+
                   /* Removendo tooltips de Fazendeiros sem nota */
           if(data.data[piao].positive === null){
                 let addFazendeiro = '<div class="fazendeiro">'
@@ -30,9 +31,9 @@
                 + '</div>'
                 $(".box").append(addFazendeiro);
             } else {
+
                 /* inserindo Fazendeiros no Layout */
-                let addFazendeiro = '<div class="fazendeiro">'
-               
+                let addFazendeiro = '<div class="fazendeiro">'             
                 + '<p class="nomeFazendeiro">' + nome + '</p>'
                 + '<p class="descricaoFazendeiro">' + description + '</p>'
                 + '<p class="contarPosicao">' + numeroPosicao + '</p>'
@@ -60,6 +61,6 @@
 
     $.getJSON(fazendeirosJSON)
      .done(onPerfilFazendeiros)
-     .fail(erroFazenda);
-     
-}); 
+     .fail(erroFazenda);    
+        
+  }); 

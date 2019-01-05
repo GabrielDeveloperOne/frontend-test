@@ -3,7 +3,7 @@
     height: 60px;
     border-radius: 50%;
     margin: -45px 0 4px 9px;
-    border: 6px solid #ba3638;
+    border: 6px solid $corBordaFazendeiro;
     background-size: 150px;
 }
 
@@ -12,9 +12,10 @@
     position: relative;
     left: 100px;
     top: 30px;
-    color: #ba3638;
+    color: $corNomeFazendeiro;
     font-weight: 700;
 }
+
 
 .descricaoFazendeiro{
     margin: 0;
