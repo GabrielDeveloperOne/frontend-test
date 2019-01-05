@@ -1,20 +1,22 @@
 .box {
     width: 342px;
-    height: 464px;
+    height: 450.6px;
     background: $backgroundRanking;
 }
 
 div {
     border-radius: $bordas;
 }
-.box > div{
+/*.box > div{
     background-color: $backgroundRanking;
     width: 100%;
     text-align: center;
     line-height: 80px;
+}*/
+
+.fazendeiro{
+    height: 90px;
 }
-
-
 .fazendeiro:hover {
     background: #ba3638;
     transition: 0.2s;

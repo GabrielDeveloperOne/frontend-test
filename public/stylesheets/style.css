@@ -32,17 +32,20 @@ h1 {
 
 .box {
   width: 342px;
-  height: 464px;
+  height: 450.6px;
   background: #ffffff; }
 
 div {
   border-radius: 2px; }
 
-.box > div {
-  background-color: #ffffff;
-  width: 100%;
-  text-align: center;
-  line-height: 80px; }
+/*.box > div{
+    background-color: $backgroundRanking;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}*/
+.fazendeiro {
+  height: 90px; }
 
 .fazendeiro:hover {
   background: #ba3638;
@@ -62,8 +65,8 @@ div {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  top: 9px;
-  left: 194px; }
+  top: -52px;
+  left: 358px; }
 
 .tooltip .opiniao::after {
   content: "";
@@ -97,7 +100,7 @@ div {
 
 .estiloNaoGosta {
   position: absolute;
-  top: -26px;
+  top: 3px;
   color: #fff;
   text-align: center;
   font-size: 12px;
@@ -106,7 +109,7 @@ div {
 
 .estiloGosta {
   position: absolute;
-  top: -26px;
+  top: 3px;
   color: #fff;
   text-align: center;
   font-size: 12px;
@@ -116,7 +119,7 @@ div {
 .gostaPorcento {
   position: absolute;
   text-align: center;
-  top: 3px;
+  top: 24px;
   color: #909090;
   font-size: 28px;
   font-weight: 600;
@@ -125,10 +128,21 @@ div {
 .NaoGostaPorcento {
   position: absolute;
   text-align: center;
-  top: 3px;
+  top: 24px;
   color: #909090;
   font-size: 28px;
   font-weight: 600;
   right: 15px; }
+
+.fotoFazendeiro {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px 0 4px 9px;
+  border: 6px solid #ba3638;
+  background-size: 150px; }
+
+.nomeFazendeiro {
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
