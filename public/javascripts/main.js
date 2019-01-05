@@ -24,6 +24,7 @@
           if(data.data[piao].positive === null){
                 let addFazendeiro = '<div class="fazendeiro">'
                 + '<p class="nomeFazendeiro">' + nome + '</p>'
+                + '<p class="descricaoFazendeiro">' + description + '</p>'
                 + '<p class="contarPosicao">' + numeroPosicao + '</p>'
                 + '<img class="fotoFazendeiro" src="' + picture + '">' 
                 + '</div>'
@@ -33,9 +34,9 @@
                 let addFazendeiro = '<div class="fazendeiro">'
                
                 + '<p class="nomeFazendeiro">' + nome + '</p>'
+                + '<p class="descricaoFazendeiro">' + description + '</p>'
                 + '<p class="contarPosicao">' + numeroPosicao + '</p>'
                 + '<img class="fotoFazendeiro" src="' + picture + '">'
-                
                 + '<div class="tooltip">'
                 + '<span class="opiniao">'
                 + '<div class="gosta">'
