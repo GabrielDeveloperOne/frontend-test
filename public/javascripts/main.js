@@ -21,11 +21,14 @@
                     /* Calculo porcentagem positivo e negativo*/
               let positive = ((data.data[piao].positive / 100000000) * 100).toFixed(2);
               let negative = ((data.data[piao].negative / 100000000) * 100).toFixed(2);
-              console.log("O nome do fazendeiro é: " + nome);
-              console.log("O nome do fazendeiro é: " + description);
-              console.log("O nome do fazendeiro é: " + picture);
-              console.log("O nome do fazendeiro é: " + positive + "%");
-              console.log("O nome do fazendeiro é: " + negative + "%");
+
+              let addFazendeiro = '<div class="fazendeiro">'
+              + '<p class="nomeFazendeiro">'
+              + '<img class="fotoFazendeiro" src="' + picture + '">'
+              + '</p>' 
+              + '</div>'
+              
+              $(".box").append(addFazendeiro);
             }         
         }     
     }
